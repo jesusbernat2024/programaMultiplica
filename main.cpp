@@ -1,13 +1,9 @@
 #include <iostream>
+#include "multiplica.h"
 using namespace std;
 
-int multiplica(int x, int y){
-    int resultado = x * y;
-    return resultado;
-}
-
 int main() {
-  int a=2, b=3, r=0;
+  int a=5, b=4, r=0;
   
   r = multiplica(a,b);
 
